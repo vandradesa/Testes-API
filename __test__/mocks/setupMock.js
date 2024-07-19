@@ -36,7 +36,7 @@ const setupMockAxios = async (videoId, title = '', description = '', viewCount =
 
 const setupMock = async (videoId, title, description, viewCount) => {
     try {
-        await setupMockAxios(videoId, title, description);
+        await setupMockAxios(videoId, title, description, viewCount);
         const response = await axios.get('https://www.googleapis.com/youtube/v3/videos', {
             params: { part: 'snippet,statistics', id: videoId }
         });
