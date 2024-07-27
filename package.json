@@ -19,7 +19,8 @@
     "googleapis": "^140.0.1",
     "jest": "^29.7.0",
     "mocha": "^10.6.0",
-    "nock": "^13.5.4"
+    "nock": "^13.5.4",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "axios-mock-adapter": "^1.22.0"
